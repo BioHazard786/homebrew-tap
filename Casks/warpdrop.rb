@@ -14,22 +14,22 @@ cask "warpdrop" do
   on_macos do
     on_intel do
       url "https://github.com/BioHazard786/warpdrop/releases/download/v#{version}/warpdrop_v#{version}_macOS-64bit.tar.gz"
-      sha256 "3779a1776d413adc409c0dba00e08dcda15ee31b496e260c1dd0a53221290a72"
+      sha256 "d0d007be02a0fc4cc646cbe9b1d2486d1df74d3a87f0792bc7f46111f53d482d"
     end
     on_arm do
       url "https://github.com/BioHazard786/warpdrop/releases/download/v#{version}/warpdrop_v#{version}_macOS-ARM64.tar.gz"
-      sha256 "006f25add2d17d91059d85b8c0d550e8f2bf0e51e7b952c7ba6fd2dbdbd229c9"
+      sha256 "99ba48ff8fa6c6c1ba06733b0a508241f09921a93af539a62f3b971430b9381c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/BioHazard786/warpdrop/releases/download/v#{version}/warpdrop_v#{version}_Linux-64bit.tar.gz"
-      sha256 "1add1e168f66d514668c1b9b4735c25867f8946b473f3b8cfa7d16b6c49fce2f"
+      sha256 "92c4c39ac0a9672d973bfe5d3c317b43b35bd3dd0d7f64f0091266967ad82d6e"
     end
     on_arm do
       url "https://github.com/BioHazard786/warpdrop/releases/download/v#{version}/warpdrop_v#{version}_Linux-ARM64.tar.gz"
-      sha256 "27ff3d2d6f8011130a8cdc72cdf0dc77dab623a397c22fbe822bf3b17f5d2d5a"
+      sha256 "92be884a93aace2b4a18b9b642c48386f6204a6b28f4445609223a838d00c719"
     end
   end
 
