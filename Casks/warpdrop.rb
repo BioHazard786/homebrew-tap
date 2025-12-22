@@ -3,7 +3,7 @@ cask "warpdrop" do
   name "warpdrop"
   desc "A simple, secure p2p file sharing tool using WebRTC technology."
   homepage "https://github.com/BioHazard786/Warpdrop"
-  version "0.0.3"
+  version "0.1.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "warpdrop" do
   on_macos do
     on_intel do
       url "https://github.com/BioHazard786/warpdrop/releases/download/v#{version}/warpdrop_v#{version}_macOS-64bit.tar.gz"
-      sha256 "aef486d9101020dafac036e2a5d939e9110e950417be2767e07628c5b75bf34a"
+      sha256 "acb7eeaff5700ee9b4d761cda8d2adecba24660464dcdb153f5520e8ed62da2e"
     end
     on_arm do
       url "https://github.com/BioHazard786/warpdrop/releases/download/v#{version}/warpdrop_v#{version}_macOS-ARM64.tar.gz"
-      sha256 "78f97a400639755232bd2ac25243eded5c76362501495e1b46cded422b9eddd7"
+      sha256 "fcddfd43433306d0fc00ad1b47302813b6af727da736293a1a1d815f97c93cbd"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/BioHazard786/warpdrop/releases/download/v#{version}/warpdrop_v#{version}_Linux-64bit.tar.gz"
-      sha256 "6160ac356308fe371eb960d7995f0102791db2cefcf1c6cba141ce682311c5f4"
+      sha256 "599e0231e5b1b1cc0c0fa636eaba8a4420d81f3718fdbd1f5e1a0c1032d5f1eb"
     end
     on_arm do
       url "https://github.com/BioHazard786/warpdrop/releases/download/v#{version}/warpdrop_v#{version}_Linux-ARM64.tar.gz"
-      sha256 "4ae3eea295c29dbd4b754b09642d870113841de7678e675c1181492649ba93a7"
+      sha256 "87b3d7e778276680a1d18a08b65c91d4a5a9b71ce06dcc29564b96ca144e0740"
     end
   end
 
